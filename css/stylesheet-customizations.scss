@@ -1,0 +1,116 @@
+---
+---
+
+// Put your custom CSS here if you want to override the defaults.
+// Here are some common customizations for colors
+
+// Customize the background color
+body {
+  // background-color: #f2f2f2;;
+}
+
+// Customize the menubar color
+.ui.menu {
+  // background: $background-start;
+}
+
+// Customize the home page icon colors
+.icon-color {
+  // color: silver;
+}
+
+// This class is used in the prebuilt bio themes.
+.no-bottom {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.no-top {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+// Make those blocks inline!
+.inline {
+  display: inline;
+}
+
+.separator {
+  font-size: 1.2em;
+}
+
+.spacer-1 {
+  height: 2em;
+}
+
+.spacer-2 {
+  height: 3em;
+}
+
+.work-title {
+  margin: 0;
+}
+
+.work-summary {
+  text-indent: 1em;
+}
+
+.two.wide.column {
+  // border-left: 1px solid #acacac;
+  border-right: 1px solid #acacac;
+}
+
+
+.interests {
+  columns: 3;
+  margin-top: 0;
+  list-style: square outside none;
+  padding-left: 1em;
+
+  .subtext {
+    font-size: 0.8em;
+  }
+}
+
+.list > .item.divided {
+  padding: 1em 0 1em 0;
+}
+
+ul {
+  &.two.columns {
+    columns: 2;
+    white-space: nowrap;
+  }
+  &.three.columns {
+    columns: 3;
+    white-space: nowrap;
+  }
+  &.four.columns {
+    columns: 4;
+    white-space: nowrap;
+  }
+  &.five.columns {
+    columns: 5;
+    white-space: nowrap;
+  }
+  &.six.columns {
+    columns: 6;
+    white-space: nowrap;
+  }
+  &.seven.columns {
+    columns: 7;
+    white-space: nowrap;
+  }
+  &.eight.columns {
+    columns: 8;
+    white-space: nowrap;
+  }
+}
+
+
+blockquote {
+  padding: 0 15px;
+  border-left: 4px solid #ddd;
+  color: #777;
+  margin: 1em;
+}

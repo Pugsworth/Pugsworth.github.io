@@ -1,0 +1,16 @@
+<!-- Used by theme-bio-builtin-1,2 -->
+
+{% if site.data.bio.basics.website %}
+  <p class="ui no-bottom"><a href="{{ site.data.bio.basics.website }}"> <i class="large home icon "></i>{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}</a></p>
+{% endif %}
+
+{% if site.data.bio.basics.email %}
+<p class="ui no-bottom"><a href="/contact"> <i class="large mail outline icon "></i>Contact Me</a></p>
+{% endif %}
+
+{% for entry in site.data.contact.items %}
+{% if entry.network %}
+<p class="ui no-bottom"><a href="{{ entry.link }}"> <i class="large {{ entry.icon | downcase }} icon "></i>{{ entry.username }}</a></p>
+{% endif %}
+{% endfor %}
+

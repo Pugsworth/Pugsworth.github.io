@@ -1,0 +1,11 @@
+<!-- Used by theme-home-builtin-1,2,3 -->
+
+{% for entry in site.data.contact.items %}
+{% if entry.network %}
+   <a href="{{ entry.link }}"> <i class="big {{ entry.network | downcase }} icon icon-color"></i> </a>
+{% endif %}
+{% endfor %}
+
+{% if site.data.bio.basics.email %}
+  <a href="mailto:{{ site.data.bio.basics.email }}"> <i class="big mail square icon icon-color"></i> </a>
+{% endif %}

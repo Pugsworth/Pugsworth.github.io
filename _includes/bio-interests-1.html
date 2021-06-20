@@ -1,0 +1,26 @@
+<!-- Used by theme-bio-builtin-1 -->
+
+{% if site.data.bio.interests %}
+<div class="row">
+  <div class="two wide column">
+    <h3 class="ui left aligned header">Interests</h3>
+  </div>
+
+  <div class="fourteen wide column no-bottom">
+    <ul class="ui no-bottom interests">
+    {% for entry in site.data.bio.interests %}
+      <li class="interests-item">
+        {{ entry.name }}
+
+        {% if entry.keywords and entry.keywords.size > 0 %}
+        <span class="subtext">
+        ({% for keyword in entry.keywords %}{{ keyword }}{% if forloop.last != true %}, {% endif %}{% endfor %})
+        </span>
+        {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endif %}
+ 

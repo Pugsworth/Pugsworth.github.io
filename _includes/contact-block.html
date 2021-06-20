@@ -1,0 +1,17 @@
+<div class="ui raised very padded container">
+	<h1 class="huge header">Contact/Websites</h1>
+	<div class="ui list divided">
+
+		{% for element in site.data.contact.items %}
+			
+		<div class="item divided">
+			<i class="{{ element.icon }} big icon"></i>
+			<div class="content">
+				<a class="header" href="{{ element.link }}">{{ element.title }}</a>
+				<div class="description">{{ element.description }}</div>
+			</div>
+		</div>
+
+		{% endfor %}
+	</div>
+</div>

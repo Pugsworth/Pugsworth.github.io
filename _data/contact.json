@@ -1,0 +1,54 @@
+{
+	"items": [
+		{
+			"title": "Website",
+			"icon": "home",
+			"description": "My main portfolio website (here!)",
+			"link": "https://pugsworth.github.io"
+		},
+		{
+			"title": "Github",
+			"network": "github",
+			"icon": "github",
+			"username": "Pugsworth",
+			"description": "Open source projects!",
+			"link": "https://github.com/Pugsworth"
+		},
+		{
+			"title": "LinkedIn",
+			"network": "linkedin",
+			"icon": "linkedin",
+			"username": "Kyle Wolsten",
+			"description": "",
+			"link": "https://www.linkedin.com/in/kyle-w-4484a874/"
+		},
+		{
+			"title": "Flickr",
+			"network": "flickr",
+			"icon": "camera",
+			"username": "wolst.kyle",
+			"description": "This is where I upload my photography.",
+			"link": "https://www.flickr.com/photos/191671805@N08/"
+		},
+		{
+			"title": "Instagram",
+			"network": "instagram",
+			"icon": "instagram",
+			"username": "uriah_vorti",
+			"description": "This started as a location to upload my photography. I have since migrated to Flickr due to the nature of modern Instagram.",
+			"link": "https://www.instagram.com/uriah_vorti/"
+		},
+		{
+			"title": "Email",
+			"icon": "envelope",
+			"description": "",
+			"link": ""
+		}
+	]
+}
+
+// website
+// github
+// linked in
+// instagram/flickr
+// email

@@ -1,0 +1,119 @@
+{
+  "basics": {
+    "name1": "K",
+    "name2": "yle",
+    "name3": "Wol",
+    "name4": "sten",
+    "label": "--",
+    "picture": "/images/me.jpg",
+    "website": "https://pugsworth.github.io",
+    "summary": "Huge nerd deeply into mechanical, software, and photography.",
+    "location": {
+      "city": "Colorado Springs",
+      "countryCode": "USA",
+      "state": "Colorado"
+    }
+  },
+  "interests": [
+    { "name": "Software Development and Engineering" },
+    { "name": "Photography" },
+    {
+      "name": "Embeded",
+      "keywords": [
+        "Arduino",
+        "AVR",
+        "Raspberry Pi"
+      ]
+    },
+    { "name": "Mechanical",
+      "keywords": [
+      "Motorcycles",
+      "Cars"
+      ]
+    },
+    { "name": "Game Design",
+      "keywords": [
+        "Level Design",
+        "Programming",
+        "Game Theory",
+        "3D Modeling"
+      ]
+    },
+    {
+      "name": "3D Printing and Manufacturing",
+      "keywords": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "C",
+        "C++",
+        "Java",
+        "C#",
+        "HTML/CSS/Javascript",
+        "Python",
+        "Ruby",
+        "Lua",
+        "Powershell",
+        "Bash"
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [
+        "Windows",
+        "Debian Linux",
+        "Git/GitHub",
+        "Visual Studio/Visual Studio Code",
+        "Fusion 360"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Cobham Advanced Electronic Solutions Inc. (CAES)",
+      "position": "CCA Assembler",
+      "startDate": "2019",
+      "endDate": "Present",
+      "summary": "Prep and assembly of Printed Circuit Boards.",
+      "highlights": [
+        "Preperation of boards and parts.",
+        "SMT Operation and troubleshooting",
+        "Built automated systems to streamline several processes for increased speed and efficiency.",
+        "Trained employees on Prep and tinning of components."
+      ]
+    },
+    {
+      "company": "Bal Seal Engineering",
+      "position": "Spring Technician",
+      "startDate": "2017",
+      "endDate": "2019",
+      "summary": "",
+      "highlights": [
+        "Learned and became effecient in the operation of every machine on assembly line in less than 2 years.",
+        "Worked everywhere from the front of the line to the end -- Supplied material for everyone and also helped meet deadlines at the end."
+      ]
+    },
+    {
+      "company": "The Cabinet Guy LLC",
+      "position": "IT, General",
+      "startDate": "2016",
+      "endDate": "2017",
+      "summary": "Computer and server management.",
+      "highlights": [
+        "Managed inventory systems",
+        "Took over operating of company website. Updated website to modern technologies and UX design.",
+        "Worked alongside owner to bring new technologies and functionality to business."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}

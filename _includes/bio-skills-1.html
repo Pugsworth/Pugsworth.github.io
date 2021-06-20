@@ -1,0 +1,25 @@
+<!-- Skills -->
+<!-- Used by theme-bio-builtin-1 -->
+
+{% if site.data.bio.skills %}
+<div class="row">
+  <div class="two wide column">
+    <h3 class="ui left aligned header">Skills</h3>
+  </div>
+
+  <div class="fourteen wide column no-bottom">
+    <p class="ui no-bottom">
+    {% for entry in site.data.bio.skills %}
+      <p class="ui no-bottom">
+      <b class="ui ">{{ entry.name }}:</b>
+      <ul class="four columns">
+      {% for keyword in entry.keywords %}
+        <li>{{ keyword }}</li>
+      {% endfor %}
+      </ul>
+      </p>
+    {% endfor %}
+
+  </div>
+</div>
+{% endif %}
