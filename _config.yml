@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 theme: jekyll-theme-slate
-=======
+
 # Site settings
 
 # REQUIRED CHANGES
@@ -31,4 +30,7 @@ include: [_data]
 sass:
   sourcemap: always
   sass_dir: css
->>>>>>> 5dbe912... First project mostly finished.
+
+
+# gems:
+#   - jekyll-redirect-from
