@@ -1,5 +1,6 @@
 ---
 layout: project
+draft: true
 type: project
 image: images/cotton-square.png
 title: Cotton
